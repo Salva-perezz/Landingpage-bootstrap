@@ -1,68 +1,144 @@
 body {
-    background: url(https://eskipaper.com/images/solid-color-wallpaper-5.jpg);
+    /* background-image: url(https://eskipaper.com/images/solid-color-wallpaper-5.jpg); */
+    background-color: #1d3557;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.nav-link {
-    color: #FFF;
+.bg-color {
+    background-color: #e63946;
 }
 
-header {
-    text-align: center;
-    color: #FFF;
+nav {
+    border-top: solid 0.2em #1d3557;
+    border-bottom: solid 0.2em #1d3557;
+    position: fixed;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+    text-align: center;   
+}
+
+.navbar-color {
+    color: #fff;
+}
+
+.img-portfolio {
     margin-top: 1em;
-}
-
-.img-muestra {
     width: 80%;
-    margin: auto;
-    margin-top: 5%;
+    height: 80%;
+    border-radius: 1em;
+    margin-left: 1em;
 }
 
-img {
-    width: 29%;
-    margin: 1.4%;
+#portfolio {
+    text-align: center;
 }
 
 hr {
+    background-color: #e63946;
     height: 0.1em;
-    background-color: rgb(153, 20, 20);
-    width: 80%;
+    width: 90%;
+}
+
+.text-portfolio {
+    color: #ffffff;
+}
+
+.text-portfolio:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sobre-mi {
+    margin-top: 10em;
+    background-color: #ffffff;
+}
+
+#sobre-mi {
+    padding-top: 2em;
+}
+
+.img-jumbo {
+    width: 20em;
+    height: 15em;
     margin-top: 5em;
 }
 
-.foot {
-    margin-top: auto;
-}
-
-footer {
+.sobre-text {
     text-align: center;
-    color: #FFF;
 }
 
-.footer {
-    color: #FFF;
+.p-sobre {
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding-bottom: 5em;
+    padding-top: 5em;
 }
 
 form {
     width: 30%;
+    text-align: center;
+    display: block;
     margin: auto;
+    margin-top: 5em;
+    padding-bottom: 5em;
 }
 
-#footer-about {
-    margin-top: 28%;
+.label-form {
+    color: #ffffff;
 }
 
-#footer-contact {
-    margin-top: 20%;
+#mensaje {
+    height: 5em;
 }
 
-.img-redes {
-    width: 3%;
+.btn {
+    background-color: #e63946;
+    border: none;
+    color: #a8dadc;
+}
+
+.btn:hover {
+    background-color: #457b9d;
+}
+
+.foot {
+    background-color: #f1faee;
+    padding-bottom: 5em;
+    
 }
 
 .redes {
+    padding-top: 5em;
     text-align: center;
 }
 
+.img-foot {
+    width: 3em;
+    height: 3em;
+    padding: 0.5em;
+}
+
+.copy {
+    background-color: #e63946;
+    text-align: center;
+    height: 1.5em;
+}
+
+#h2-contact {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.uno {
+    background-color: #1d3557;
+    height: 0.1em;
+}
+
+.dos {
+    background-color: #e63946;
+}
